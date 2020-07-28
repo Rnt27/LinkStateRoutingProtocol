@@ -3,8 +3,8 @@ User-space program which simulates some of the major functionalities of a routin
 
 # How to Execute:
 
-To execute:
-On different command lines to simmulate different computers:
+To execute,
+on different command lines to simmulate different computers:
 
 mvn compile exec:java -Dexec.mainClass=socs.network.Main -Dexec.args="conf/router1.conf"
 
