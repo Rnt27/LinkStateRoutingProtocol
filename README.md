@@ -22,9 +22,11 @@ mvn compile exec:java -Dexec.mainClass=socs.network.Main -Dexec.args="conf/route
 
 On the command line:
 attach conf/router1.conf 3
+
 //Can be replaces with any other router available, don't forget to add a weight
 
 start
+
 //Starts the link between the routers
 
 # To check on neighbors
